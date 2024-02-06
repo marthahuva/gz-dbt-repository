@@ -1,5 +1,5 @@
 version: 2
-
+## dbt build para correr todos
 sources:
   - name: raw
     schema: gz_raw_data
@@ -44,3 +44,4 @@ sources:
             tests:
               - unique
               - not_null
+
